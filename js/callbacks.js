@@ -10,7 +10,7 @@ function getJSON(url, callback) {
   xhr.onload = () => {
     if(xhr.status === 200) {
       let data = JSON.parse(xhr.responseText);
-      return callback(data);
+      return callback(data); 
     }
   };
   xhr.send();
