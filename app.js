@@ -1,1 +1,2 @@
-let matt = "hello world!"
+let matt = "hello world!";
+let dave = "dave";
